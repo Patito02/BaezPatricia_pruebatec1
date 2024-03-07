@@ -21,16 +21,18 @@ Al realizar una edición o eliminación se supone que el usuario conoce los Id d
 
 ## Utilización de la aplicación
 Desde el menú inicial permite elegir entre las siguientes opciones: 
-	1. Agregar un nuevo empleado
+1. Agregar un nuevo empleado
 Se deben ingresar los datos del nuevo empleado: Nombre, Apellido, Cargo, Salario y Fecha de Inicio.
-	2. Listar todos los empleados
+2. Listar todos los empleados
 Esta opción simplemente muestra todos los empleados en estado Activo que están registrados en la base de datos.
-	3. Actualizar información de un empleado
+3. Actualizar información de un empleado
 Pide ingresar el id del empleado a modificar y luego pregunta cuál es el dato a modificar: Nombre, Apellido, Cargo, Salario o Fecha de Inicio. 
-	4. Eliminar un empleado
+4. Eliminar un empleado
 Solicita ingresar el id del empleado a eliminar. 
-	5. Buscar empleados por cargo
+5. Buscar empleados por cargo
 Pide ingresar el cargo por el cual se desea filtrar y muestra un listado de todos los empleados activos con ese cargo.
+6. Salir
+Por último está la opción de salir del sistema desde el menú principal.
 
 ## Explicación de métodos
 En la clase Metodo se encuentran todos los métodos utilizados.
