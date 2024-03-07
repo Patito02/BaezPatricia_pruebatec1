@@ -9,17 +9,17 @@ Este programa permite realizar altas, bajas, edición y consultas de los emplead
 
 ## Como descargar el proyecto:
 1. Clonar el repositorio del proyecto en la pc local. Ejecutar el siguiente comando: 
-	git clone https://github.com/Patito02/BaezPatricia_pruebatec1.git
+git clone https://github.com/Patito02/BaezPatricia_pruebatec1.git
 2. Desde el IDE importar el proyecto.
 3. Crear una base de datos y hacer la conexión desde el IDE para la persistencia de los datos.
 4. Ejecuta la aplicación.
 
-##Supuestos
+## Supuestos
 Al realizar la creación de un empleado se supone que el usuario va a ingresar fechas anteriores o iguales al día de la carga ya que son fechas de inicio laboral del empleado. Lo mismo se aplica cuando se hace la edición de las fechas. Además, no podrían ser fechas anteriores al comienzo de la vida de la empresa.
 En la creación verifica si el empleado ya existe, aunque se supone que el usuario sabe que no está registrado en el sistema.
 Al realizar una edición o eliminación se supone que el usuario conoce los Id de los empleados activos, pero se agregó la opción de obtener un listado de los empleados para facilitar la búsqueda.
 
-## Utilización de la aplicación
+## Uso del programa
 Desde el menú inicial permite elegir entre las siguientes opciones: 
 1. Agregar un nuevo empleado
 Se deben ingresar los datos del nuevo empleado: Nombre, Apellido, Cargo, Salario y Fecha de Inicio.
